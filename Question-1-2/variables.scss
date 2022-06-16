@@ -1,0 +1,27 @@
+// colors
+$purple: #2e2963;
+$offWhite: #e1e1e1;
+$grey: #a5a5a5;
+$shadow: #e4e1e1;
+$validText: green;
+$invalidText: red;
+$divider: rgb(218, 218, 218);
+
+// fonts
+$fontFamily: "Roboto", sans-serif;
+$title: 30px;
+$medium: 22px;
+$small: 14px;
+
+//borders
+
+$valid: 1px solid green !important;
+$invalid: 1px solid red !important;
+$mainBorder: 1px solid rgb(218, 218, 218);
+
+// other
+$boxShadow: 5px 10px 10px $shadow;
+
+//responsive
+
+$breakPoint: 740px;

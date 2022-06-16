@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/e0f9ab2f02.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- wrapper -->
+    <div class="wrapper">
+      <!-- Contact Info -->
+      <div class="info">
+        <div class="firstTitle">Contact Info</div>
+        <div class="infoItem">
+          <div class="iconLabel">
+            <i class="fa-solid fa-user"></i>
+            <span class="label"> Name</span>
+          </div>
+
+          <span class="text">Kiran Acharya</span>
+        </div>
+        <div class="infoItem">
+          <div class="iconLabel">
+            <i class="fa-solid fa-envelope"></i>
+            <span class="label"> Email</span>
+          </div>
+          <span class="text" id="leftEmail">kiranworkspace7@gmail.com</span>
+        </div>
+        <div class="infoItem">
+          <div class="iconLabel">
+            <i class="fa-solid fa-phone"></i>
+            <span class="label"> Phone</span>
+          </div>
+          <span class="text">+91 9876543215</span>
+        </div>
+        <div class="infoItem">
+          <div class="iconLabel">
+            <i class="fa-solid fa-location-dot"></i>
+            <span class="label"> Address</span>
+          </div>
+          <span class="text">4286 B Street, Saint Paul, Minnesota MN</span>
+        </div>
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+
+      <!-- Contact Us -->
+      <div class="contact">
+        <div class="secondTitle">Contact Us</div>
+        <hr />
+        <form id="contactForm">
+          <div class="labelInput">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="fname" required />
+            <small class="invalidText hide">Please Enter Your Name!</small>
+            <small class="validText hide">Valid! </small>
+          </div>
+          <div div class="labelInput">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div div class="labelInput">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" required />
+          </div>
+          <div div class="labelInput">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

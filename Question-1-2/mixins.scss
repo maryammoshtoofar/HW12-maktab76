@@ -1,0 +1,17 @@
+@mixin radius() {
+  border-radius: 5px;
+}
+
+@mixin colFlex() {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin gradient() {
+  background: rgb(28, 24, 59);
+  background: linear-gradient(
+    0deg,
+    rgba(28, 24, 59, 1) 0%,
+    rgba(72, 69, 116, 1) 100%
+  );
+}
