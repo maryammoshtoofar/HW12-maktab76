@@ -3,8 +3,8 @@
 const fname = document.getElementById("fname");
 fname.addEventListener("focusout", () => {
   const isEmpty = !fname.value;
-  const validText = document.getElementsByClassName("validText")[0];
-  const invalidText = document.getElementsByClassName("invalidText")[0];
+  const validText = document.querySelector(".validText");
+  const invalidText = document.querySelector(".invalidText");
   if (isEmpty) {
     fname.classList.add("invalid");
     invalidText.classList.remove("hide");
