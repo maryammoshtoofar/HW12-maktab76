@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  background-color: #3c4770;
+  background-image: url(./img/img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+ul {
+  background-color: rgba(199, 199, 199, 0.8);
+  background-size: cover;
+  font-size: 20px;
+  font-weight: bold;
+  color: #6f3637;
+  border-radius: 20px;
+  list-style: none;
+  margin: auto;
+  width: 30%;
+  height: 80%;
+}
+
+li {
+  padding: 8% 0;
+  cursor: pointer;
+  transition: font-size 1s;
+}
+
+li:hover {
+  font-size: larger;
+}
+
+.lined {
+  text-decoration: line-through;
+}
