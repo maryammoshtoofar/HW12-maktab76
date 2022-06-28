@@ -1,4 +1,7 @@
-const span = document.getElementById("show_position");
-const event_function = (event) => {
-  span.innerHTML = `Position X= ${event.clientX} Position Y= ${event.clientX} `;
+const span = document.getElementById("position");
+const showXY = (e) => {
+  span.innerHTML = `X= ${e.clientX} Y= ${e.clientX} `;
 };
+
+const div = document.getElementById("container");
+div.addEventListener("mousemove", showXY);
