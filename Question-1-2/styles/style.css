@@ -78,7 +78,6 @@ body {
 .wrapper .contact {
   -webkit-box-shadow: 5px 10px 10px #e4e1e1;
           box-shadow: 5px 10px 10px #e4e1e1;
-  gap: 10px;
   border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,7 +89,7 @@ body {
   width: 70%;
   height: 90%;
   margin: auto 0;
-  padding: 20px 100px;
+  padding: 0 100px;
 }
 
 .wrapper .contact .secondTitle {
@@ -149,8 +148,7 @@ body {
   color: #e1e1e1;
   border: none;
   width: 100%;
-  padding: 15px;
-  margin-top: 20px;
+  padding: 10px;
   font-size: 22px;
   cursor: pointer;
 }

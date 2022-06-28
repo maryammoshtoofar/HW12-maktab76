@@ -6,4 +6,4 @@ document.addEventListener("mouseover", function (event) {
 
 let goodBye = new Event("mouseover", { bubbles: true });
 elemId.dispatchEvent(goodBye);
-
+console.log(elemId);

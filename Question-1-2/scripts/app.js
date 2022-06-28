@@ -20,7 +20,7 @@ fname.addEventListener("focusout", () => {
 // q2 part 2
 const email = document.getElementById("email");
 const leftEmail = document.getElementById("leftEmail");
-email.addEventListener("change", () => {
+email.addEventListener("input", () => {
   leftEmail.innerHTML = email.value;
 });
 

@@ -50,13 +50,12 @@ body {
   }
   .contact {
     box-shadow: $boxShadow;
-    gap: 10px;
     @include radius;
     @include colFlex();
     width: 70%;
     height: 90%;
     margin: auto 0;
-    padding: 20px 100px;
+    padding: 0 100px;
     .secondTitle {
       font-size: $title;
     }
@@ -95,8 +94,7 @@ body {
       color: $offWhite;
       border: none;
       width: 100%;
-      padding: 15px;
-      margin-top: 20px;
+      padding: 10px;
       font-size: $medium;
       cursor: pointer;
     }
