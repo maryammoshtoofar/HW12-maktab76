@@ -5,5 +5,6 @@ myDiv.addEventListener("click", (e) => {
 });
 
 myBtn.addEventListener("click", (e) => {
+  e.stopPropagation();
   console.log(myBtn.nodeName);
 });
